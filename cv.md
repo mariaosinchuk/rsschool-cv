@@ -1,5 +1,5 @@
 # Maria Osinchuk #
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![picture of me](pic/580896247.jpeg)
 **mashabelkinaspb@gmail.com**
 **+79516450691**
 Now I am working as a technical support engineer, but I'm willing to change my career path. I like learning. I am a linguist by formation and I speak English and Spanish well, and learning HTML, CSS and so on is like learnig another foreign language for me. 
