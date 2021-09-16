@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+    <style>
+        .square {
+          width: 1000px;
+          margin: 5% 20%;
+        }
+      </style>
+      <style>
+        .footer {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+        }
+      </style>
+    <div class="square">
+        <head>
+<h1 align="center">
+    Maria Osinchuk
+</h1>
+<p align="center" style="background: cadetblue; font-weight:bold;">
+    Junior frontend developer
+</p>
+</head>
+<img src="pic/580896247.jpeg" alt="picture of me" width="180" height="auto" style="float:left; padding: 10px; margin: 15px 15px 15px 0px;"> 
+<body>
+    <h2> 
+        Contacts 
+    </h2>
+    <ul>
+       <li>mashabelkinaspb@gmail.com</li>
+        <li>+79516450691</li>
+    </ul>
+    <h2>
+About me
+    </h2>
+<p>
+    I have been working as a technical support engineer for two years, but I'm willing to change my career path. I like learning. I am a linguist by formation, I speak English and Spanish well, and learning HTML, CSS and JavaScript is like learning another foreign language for me. 
+</p>
+<br />
+<br>
+<h2>
+    Skills
+</h2>
+<p>
+    <ul>
+        <li> HTML, CSS, JavaScript </li>
+        <li> Git, GitHub </li>
+        <li> SQL </li>
+    </ul>
+</p>
+<h2>
+    Code Example
+</h2>
+<h3>
+    Task: 
+</h3>
+    <p style="font-style: italic;">
+    In this kata, we will make a function to test whether a period is late.
+
+    Our function will take three parameters:
+    
+    last - The Date object with the date of the last period
+    
+    today - The Date object with the date of the check
+    
+    cycleLength - Integer representing the length of the cycle in days
+    
+    Return true if the number of days passed from last to today is greater than cycleLength. Otherwise, return false.
+</p>
+<h3>
+    Solution:
+</h3>
+<p>
+    <pre></pre>
+    <code>
+    function periodIsLate(last, today, cycleLength) {
+        let period = today - last;</p>
+        let periodInDays = period / (1000 * 3600 * 24);
+       if (periodInDays <= cycleLength) {
+         return false;
+       }
+       return true
+      };
+    </code>
+</pre>
+</p>
+    <h2>
+        Formation
+    </h2>
+<ul>
+<li>2013, Theoretical and Applied Linguistics Specialist, Baltic State Technical University</li>
+<li>2017, Getting Things Done Mastering Workflow Level 1: Fundamentals, David Allen company</li>
+<li>2019, Communicating with the Customer, Green Key</li>
+<li>2020, Open Source Software Development, Linux and Git, Linux Foundation (Coursera)</li>
+<li>2020, Learn SQL Basics for Data Science, University of California, Davis (Coursera)</li>
+<li>2020, Microsoft Office Specialist, Bazis</li>
+</ul>
+
+<p style="background: cadetblue;">
+    English: Advanced
+</p>
+<p style="background: cadetblue;">
+    Spanish: Advanced
+</p>
+<script src='http://yastatic.net/highlightjs/8.2/highlight.min.js'/></script>
+<script type='text/javascript'>hljs.initHighlightingOnLoad();</script>
+</body>
+<footer>
+    <table>
+    <tr>
+        <th>
+            <a href="https://github.com/mariaosinchuk"> My GitHub page</a>
+        </th>  
+    <th>
+            <a href="https://rs.school/js/">Course Information</a>
+            <img src="https://rs.school/images/rs_school_js.svg" width="100" height="111" alt="RS School logo">
+    </th>
+    </tr>
+    
+</table>
+</footer>
+</div>
+</html>
