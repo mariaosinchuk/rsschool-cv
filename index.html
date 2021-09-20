@@ -71,7 +71,7 @@ About me
     function periodIsLate(last, today, cycleLength) {
         let period = today - last;
         let periodInDays = period / (1000 * 3600 * 24);
-       if (periodInDays <= cycleLength) {
+       if (periodInDays &le cycleLength) {
          return false;
        }
        return true
