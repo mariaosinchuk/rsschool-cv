@@ -1,33 +1,23 @@
 <!doctype html>
 <html lang="en">
-    <style>
-        .square {
-          width: 1000px;
-          margin: 5% 20%;
-        }
-      </style>
-      <style>
-        .footer {
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-        }
-      </style>
     <div class="square">
         <head>
             <title>
                 CV
             </title>
+            <link rel="stylesheet" href="style.css">
+            <link href="prism.css" rel="stylesheet"/>
         </head>
-<h1 align="center">
+<h1>
     MARIA OSINCHUK
 </h1>
-<p align="center" style="background: cadetblue; font-weight:bold;">
+<p class="special">
     JUNIOR FRONTEND DEVELOPER
 </p>
 
-<img src="pic/580896247.jpeg" alt="picture of me" width="180" style="float:left; padding: 10px; margin: 15px 15px 15px 0px;"> 
-<body bgcolor="#c0c0c0">
+<img src="pic/580896247.jpeg" alt="picture of me" width="220" style="float:left; padding: 10px; margin: 20px 20px 20px 0px;"> 
+<body>
+    <section>
     <h2> 
         Contacts 
     </h2>
@@ -35,14 +25,18 @@
        <li> Email: mashabelkinaspb@gmail.com</li>
         <li> Phone: +79516450691</li>
     </ul>
-    <h2>
+</section>
+    <section>
+<h2>
 About me
     </h2>
+<main>
 <p>
     I have been working as a technical support engineer for two years, but I'm willing to change my career path. I like learning. I am a linguist by formation, I speak English and Spanish well. I would really like to take part in creating new products. 
 </p>
-<br />
-<br>
+</main>
+</section>
+<section>
 <h2>
     Skills
 </h2>
@@ -51,6 +45,8 @@ About me
         <li> Git, GitHub </li>
         <li> SQL </li>
     </ul>
+   </section>
+   <section>
 <h2>
     Code Example
 </h2>
@@ -74,7 +70,7 @@ About me
     Solution:
 </h3>
     <pre>
-    <code class="JavaScript">
+    <code class="language-javascript">
     function periodIsLate(last, today, cycleLength) {
         let period = today - last;
         let periodInDays = period / (1000 * 3600 * 24);
@@ -85,6 +81,8 @@ About me
       };
     </code>
 </pre>
+</section>
+<section>
     <h2>
         Formation
     </h2>
@@ -96,26 +94,20 @@ About me
 <li>2020, Learn SQL Basics for Data Science, University of California, Davis (Coursera)</li>
 <li>2020, Microsoft Office Specialist, Bazis</li>
 </ul>
-
-<p style="background: cadetblue;">
+</section>
+<aside>
+<p class="special">
     English: Advanced
 </p>
-<p style="background: cadetblue;">
+<p class="special">
     Spanish: Advanced
 </p>
+</aside>
+<script src="prism.js"></script>
 </body>
 <footer>
-    <table>
-    <tr>
-        <th>
-            <a href="https://github.com/mariaosinchuk"> My GitHub page</a>
-        </th>  
-    <th>
-            <a href="https://rs.school/js/">Course Information</a>
-            <img src="https://rs.school/images/rs_school_js.svg" width="100" height="111" alt="RS School logo">
-    </th>
-    </tr>
-    
-</table>
+            <a href="https://github.com/mariaosinchuk"> My GitHub page</a> 
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" width="80" alt="RS School logo" class="img"></a>
 </footer>
+</div>
 </html>
