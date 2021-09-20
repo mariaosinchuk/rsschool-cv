@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+        <head>
+            <title>
+                CV
+            </title>
+            <link rel="stylesheet" href="style.css">
+            <link href="prism.css" rel="stylesheet"/>
+        </head>
+        <body class="square">
+<h1>
+    MARIA OSINCHUK
+</h1>
+<p class="special">
+    JUNIOR FRONTEND DEVELOPER
+</p>
+
+<img src="pic/580896247.jpeg" alt="picture of me" width="220" style="float:left; padding: 10px; margin: 20px 20px 20px 0px;"> 
+    <section>
+    <h2> 
+        Contacts 
+    </h2>
+    <ul>
+       <li> Email: mashabelkinaspb@gmail.com</li>
+        <li> Phone: +79516450691</li>
+    </ul>
+</section>
+    <main>
+<h2>
+About me
+    </h2>
+<p>
+    I have been working as a technical support engineer for two years, but I'm willing to change my career path. I like learning. I am a linguist by formation, I speak English and Spanish well. I would really like to take part in creating new products. 
+</p>
+</main>
+<section>
+<h2>
+    Skills
+</h2>
+    <ul>
+        <li> HTML, CSS, JavaScript </li>
+        <li> Git, GitHub </li>
+        <li> SQL </li>
+    </ul>
+   </section>
+   <section>
+<h2>
+    Code Example
+</h2>
+<h3>
+    Task: 
+</h3>
+    <p style="font-style: italic;">
+    In this kata, we will make a function to test whether a period is late.
+
+    Our function will take three parameters:
+    
+    last - The Date object with the date of the last period
+    
+    today - The Date object with the date of the check
+    
+    cycleLength - Integer representing the length of the cycle in days
+    
+    Return true if the number of days passed from last to today is greater than cycleLength. Otherwise, return false.
+</p>
+<h3>
+    Solution:
+</h3>
+    <pre>
+    <code class="language-javascript">
+    function periodIsLate(last, today, cycleLength) {
+        let period = today - last;
+        let periodInDays = period / (1000 * 3600 * 24);
+       if (periodInDays &le cycleLength) {
+         return false;
+       }
+       return true
+      };
+    </code>
+</pre>
+</section>
+<section>
+    <h2>
+        Formation
+    </h2>
+<ul>
+<li>2013, Theoretical and Applied Linguistics Specialist, Baltic State Technical University</li>
+<li>2017, Getting Things Done Mastering Workflow Level 1: Fundamentals, David Allen company</li>
+<li>2019, Communicating with the Customer, Green Key</li>
+<li>2020, Open Source Software Development, Linux and Git, Linux Foundation (Coursera)</li>
+<li>2020, Learn SQL Basics for Data Science, University of California, Davis (Coursera)</li>
+<li>2020, Microsoft Office Specialist, Bazis</li>
+</ul>
+</section>
+<aside>
+<p class="special">
+    English: Advanced
+</p>
+<p class="special">
+    Spanish: Advanced
+</p>
+</aside>
+<script src="prism.js"></script>
+<footer>
+            <a href="https://github.com/mariaosinchuk"> My GitHub page</a> 
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" width="80" alt="RS School logo" class="img"></a>
+</footer>
+</body>
+</html>
